@@ -13,8 +13,8 @@ namespace TextGenerator.TextSources
     public class Twitter : ITextSource
     {
         private const string oAuthUrl = "https://api.twitter.com/oauth2/token";
-        private readonly string _apiKey = "LliLplbEGX5MDAJvdDIsWpE4Y";
-        private readonly string _apiSecret = "v6W6YMUENdBvLUUL8kiARMmqeI8tmTXcUorx4tubjB4Y3qXcBT";
+        private readonly string _apiKey;
+        private readonly string _apiSecret;
         private readonly string _handle;
         public Twitter(string key, string secret, string handle)
         {
