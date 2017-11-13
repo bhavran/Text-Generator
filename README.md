@@ -18,7 +18,7 @@ This is a simple project to create a text generator that uses a variety of sourc
   * More?
 * A Web Project to make it simple to create and use new text generators
   * Selection of state parsing method
-  * Selection of multiple parsing methods
+  * Selection of multiple source texts
   * Temporary storage of created text generators
   * Front end written in either AngularJS or Angular2
   
