@@ -13,8 +13,8 @@ namespace ConsoleTextGenerator
     {
         static void Main(string[] args)
         {
-            var twitter = new Twitter("AddKeyHere", "AddSecretHere", "AddTwitterHere");
-            var items = twitter.GetTextFromSource();
+            var reddit = new RedditTitles("redditdev");
+            var items = reddit.GetTextFromSource();
             var textGen = new SimpleTextGenerator(StateParsingDelegates.ParseSingleWords);
             items.ToList().ForEach(x => textGen.Consume(x));
             while (true)

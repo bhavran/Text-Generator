@@ -49,6 +49,8 @@
   <ItemGroup>
     <Compile Include="ITextSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedditAuth.cs" />
+    <Compile Include="RedditTitles.cs" />
     <Compile Include="Twitter.cs" />
   </ItemGroup>
   <ItemGroup>
