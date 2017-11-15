@@ -19,7 +19,7 @@ namespace TextGenerator
 
         public SimpleTextGenerator()
         {
-            _StateParser = StateParsingDelegates.RegexParse;
+            _StateParser = StateParsingDelegates.ParseSingleWords;
         }
 
         public SimpleTextGenerator(int maxLength)

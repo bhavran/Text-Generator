@@ -22,7 +22,7 @@ namespace TextGenerator
 
         public RustyTextGenerator()
         {
-            _StateParser = StateParsingDelegates.RegexParse;
+            _StateParser = StateParsingDelegates.ParseSingleWords;
         }
 
         public RustyTextGenerator(ParsingDelegate stateParser)
